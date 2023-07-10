@@ -1,0 +1,18 @@
+---
+const today = new Date();
+
+const platform = "github";
+const username = "withastro";
+---
+
+<footer>
+	<p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+
+	&copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
+</footer>
+<style>
+	footer {
+		padding: 25px;
+		text-align: center;
+	}
+</style>
